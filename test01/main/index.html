@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type="text/css">
         body{
-            background-color:gainsboro;
-            margin-left: 10%;
-            margin-right: 10%;
-            border:2px dotted black;
-            padding: 10px 10px 10px 10px;
-            font-family: sans-serif;
+            min-width: 320px;
+            font-size: 15px;
+            font-family: 微软雅黑 !important;
+            color: #000;
+            -webkit-text-size-adjust: none;
         }
-        #header{
-            background-color:#F1F1F1;
-            text-align: center;
-            height: 40;
-            padding: 10px;
+        .tops{
+            background: url(../image/SZUUPM-4.gif) no-repeat 0;
+            width: 1220px;
+        }
+        .logo{
+            
+            margin: 5px 0px 5px 0px;
+        }
+        .f1{
+            float: top;
+        }
+        .logo a {
+            display: block;
+        }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            color: #000;
         }
         #navigation{
             background-color: blueviolet;
@@ -28,45 +40,44 @@
         #footer{
             background-color: lightcyan;
         }
-        .logo{
-            float: left;
-            padding: 1;
-            margin: 1;
-            border: solid;
-        }
     </style>
     <title>Mechanics</title>
 </head>
 <body>
-    <div id="header" >
-        <img class="logo" src="../image/SZUUPM-4.gif" alt="logo" height="10%" width="10%" >
-        <span style="font-size: 50px; ">深大机电超精密课题组</span>
-    </div>
-    <div id="navigation">
-        <span style="font-size: 30px; "><a href="../main/index.html" title="跳转到首页">首页</a></span>|
-        <span style="font-size: 30px; ">研究人员</span>|
-        <span style="font-size: 30px; ">科学研究</span>|
-        <span style="font-size: 30px; ">论文专利</span>|
-        <span style="font-size: 30px; ">资料</span>|
-        <span style="font-size: 30px; ">相册</span>
-    </div>
-    <div id="content">
-        <a target="_black" href="http://www.baidu.com">
-            <img src="../image/01.jpg" width="32%" height="30%">
-        </a>
-        <img src="../image/02.jpg" width="32%" height="30%">
-        <img src="../image/03.jpg" width="32%" height="30%">
-    </div>
-    <div id="footer">
-        <h3>联系我们</h3>
-        <p>邮箱：18229874110@163.com</p>
-        <p>地址：深圳市南山区粤海街道深圳大学</p>
-        <h3>友情链接</h3>
-        <a href="https://www.szu.edu.cn/"><p>深圳大学</p></a>
-        <a href="https://cmce.szu.edu.cn/"><p>深圳大学机电与控制工程学院</p></a>
-    </div>
-    <div>
-        <p style="text-align: center ; background-color: black; color: white;">Copyright© 深圳大学机电与控制工程学院 All Rights Reserved.</p>
+    <div style="width: 1366px;margin: 0 auto;height: auto;overflow: hidden;background: #fff;">
+        <div id="tops" >
+            <div class="logo f1">
+                <a href="../main/index.html">
+                    <img style="height: 15%; width: 15%;" src="../image/SZUUPM-4.gif" >
+                </a>
+            </div>
+        </div>
+        <div id="navigation">
+            <span style="font-size: 30px; "><a href="../main/index.html" title="跳转到首页">首页</a></span>|
+            <span style="font-size: 30px; ">研究人员</span>|
+            <span style="font-size: 30px; ">科学研究</span>|
+            <span style="font-size: 30px; ">论文专利</span>|
+            <span style="font-size: 30px; ">资料</span>|
+            <span style="font-size: 30px; ">相册</span>
+        </div>
+        <div id="content">
+            <a target="_black" href="http://www.baidu.com">
+                <img src="../image/01.jpg" width="100%" height="10%">
+            </a>
+            <!-- <img src="../image/02.jpg" width="32%" height="30%">
+            <img src="../image/03.jpg" width="32%" height="30%"> -->
+        </div>
+        <div id="footer">
+            <h3>联系我们</h3>
+            <p>邮箱：18229874110@163.com</p>
+            <p>地址：深圳市南山区粤海街道深圳大学</p>
+            <h3>友情链接</h3>
+            <a href="https://www.szu.edu.cn/"><p>深圳大学</p></a>
+            <a href="https://cmce.szu.edu.cn/"><p>深圳大学机电与控制工程学院</p></a>
+        </div>
+        <div>
+            <p style="text-align: center ; background-color: black; color: white;">Copyright© 深圳大学机电与控制工程学院 All Rights Reserved.</p>
+        </div>
     </div>
 </body>
 </html>
